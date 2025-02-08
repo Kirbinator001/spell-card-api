@@ -1,9 +1,10 @@
 ﻿using AutoMapper;
 using MongoDB.Bson;
 using MongoDB.Driver;
-using SpellCard;
+using Web.Exceptions;
+using Web.Models.Spell;
 
-namespace Web;
+namespace Web.Services;
 
 public class SpellService(
     DatabaseSettings databaseSettings,

@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 
-namespace Web;
+namespace Web.Models.Spell;
 
 public class SpellProfile : Profile
 {

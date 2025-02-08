@@ -1,4 +1,4 @@
-﻿namespace Web;
+﻿namespace Web.Exceptions;
 
 public class SpellNotFoundException : Exception
 { }

@@ -1,4 +1,4 @@
-﻿namespace SpellCard;
+﻿namespace Web;
 
 public class DatabaseSettings
 {

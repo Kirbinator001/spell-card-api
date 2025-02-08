@@ -1,10 +1,11 @@
-using SpellCard;
 using SimpleInjector;
 using MongoDB.Driver;
 using Web;
 using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Bson.Serialization.Conventions;
+using Web.Models.Spell;
+using Web.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 

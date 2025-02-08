@@ -1,7 +1,7 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace Web;
+namespace Web.Models.Spell;
 
 public class SpellEntity
 {

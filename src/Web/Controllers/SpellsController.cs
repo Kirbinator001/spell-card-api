@@ -1,8 +1,10 @@
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
-using Web;
+using Web.Exceptions;
+using Web.Models.Spell;
+using Web.Services;
 
-namespace MyApp.Namespace
+namespace Web.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
