@@ -50,7 +50,7 @@ public class SpellService(
         var replaceResult = await GetSpellCollection()
         .ReplaceOneAsync(c => c.Id == spellObjectId, spellToUpdateEntity);
 
-        if (replaceResult.ModifiedCount == 0) {
+        if (replaceResult.MatchedCount == 0) {
             throw new SpellNotFoundException();
         }
     }
